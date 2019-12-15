@@ -1,0 +1,50 @@
+:host {
+    display: block;
+    margin-top: 1rem;
+}
+
+
+.info-text{
+    text-align: center;
+}
+
+mat-spinner{
+    margin: auto;
+}
+
+.post-image {
+    width: 100%;
+}
+
+.post-image img {
+    width: 100%;
+    box-shadow: 1px 1px 5px rgb(0, 0, 0, 0.5);
+}
+
+
+mat-paginator {
+    margin-top: 1rem;
+}
+
+
+.display{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+mat-card{
+  width: 350px;
+  height: 350px;
+  margin: 10px;
+
+}
+
+
+
+img{
+  height: 150px;
+  width: 150px;
+  margin-left: 75px;
+}

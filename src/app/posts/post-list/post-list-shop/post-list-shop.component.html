@@ -1,0 +1,22 @@
+
+<h2>My Basket: </h2>
+
+    <mat-accordion multi="true" >
+        <mat-expansion-panel *ngFor="let post of my_basket">
+          <mat-expansion-panel-header>
+              <mat-chip color="accent" selected>{{post.title}}</mat-chip>
+          </mat-expansion-panel-header>
+          <div class="post-image">
+            <img class="img" [src]="post.imagePath" [alt]="post.title">
+          </div>
+          <p>{{post.content}}</p>
+          <mat-action-row>
+            <button mat-button colot="Warn" (click)="onDelete(post)"
+                              >REMOVE FROM BASKET</button>
+          </mat-action-row>
+        </mat-expansion-panel>
+      </mat-accordion>
+
+
+
+      <button mat-raised-button color="accent" *ngIf="my_basket.length > 0">BUY</button>
