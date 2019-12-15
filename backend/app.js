@@ -9,7 +9,7 @@ const cors = require('cors');
 const postRoutes = require('./routes/posts');
 const userRoutes = require('./routes/users');
 
-// mongoose.connect("mongodb+srv://sadokmh:"+process.env.MONGO_ATLAS_PW+"@cluster0-gpr8s.mongodb.net/mean-app?retryWrites=true" , { useNewUrlParser: true })
+// mongoose.connect("mongodb+srv://mohamed:77240080mM"+process.env.MONGO_ATLAS_PW+"@cluster0-gpr8s.mongodb.net/mean-app?retryWrites=true" , { useNewUrlParser: true })
 //         .then( () => {
 //             console.log('Connected to the Database !');
 //         })
